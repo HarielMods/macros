@@ -16,7 +16,8 @@ LE_GARRISON_TYPE_7_0 == 3
 LE_GARRISON_TYPE_8_0 == 9
 ```
 
-|---------|---------|
+| Code                                | Explanation                                           |
+|-------------------------------------|-------------------------------------------------------|
 | if R==LE_GARRISON_TYPE_6_0 then     | If the last report opened was the WoD report          |
 |   R=LE_GARRISON_TYPE_7_0            |   Set the next report to be the legion report         |
 | elseif R==LE_GARRISON_TYPE_7_0 then | Else if the last report opened was the Legion report  |
